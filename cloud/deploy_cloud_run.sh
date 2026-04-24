@@ -15,7 +15,7 @@ gcloud artifacts repositories create ${REPO} \
 
 gcloud auth configure-docker ${REGION}-docker.pkg.dev --quiet
 
-docker build -t ${IMAGE} ./server
+docker build --platform linux/amd64 -t ${IMAGE} ./server
 docker push ${IMAGE}
 
 gcloud run deploy ${SERVICE} \
