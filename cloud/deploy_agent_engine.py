@@ -5,7 +5,7 @@ from vertexai.preview import reasoning_engines
 import sys
 import os
 
-PROJECT_ID = "your-gcp-project-id"
+PROJECT_ID='project-be2f04a0-77d8-47ca-abf'
 REGION     = "us-central1"
 STAGING    = f"gs://{PROJECT_ID}-a2a-staging"
 
