@@ -19,8 +19,7 @@ remote_agent = reasoning_engines.ReasoningEngine.create(
     EchoAgent(),
     display_name="Echo A2A Agent",
     description="A2A Lab — Echo Agent on Agent Engine",
-    gcs_dir_name="a2a-staging",
-    requirements=["cloudpickle==3.1.2"],
+    gcs_dir_name="a2a-staging"
 )
 
 print("Deployed! Resource name:", remote_agent.resource_name)
