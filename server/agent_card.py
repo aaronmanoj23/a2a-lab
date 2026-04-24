@@ -8,7 +8,7 @@ AGENT_CARD = {
         "A simple agent that echoes back any text it receives, "
         "and can summarise text on request."
     ),
-    "url":         "http://localhost:8000",
+    "url": "https://echo-a2a-agent-tyvibunxva-uc.a.run.app",
     "contact": {
         "email": "aaronmanoj23@gmail.com"
     },
