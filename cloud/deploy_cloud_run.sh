@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PROJECT_ID='your-gcp-project-id'
+PROJECT_ID='project-be2f04a0-77d8-47ca-abf'
 REGION='us-central1'
 SERVICE='echo-a2a-agent'
 REPO='a2a-lab'
