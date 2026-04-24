@@ -18,9 +18,9 @@ vertexai.init(project=PROJECT_ID, location=REGION, staging_bucket=STAGING)
 remote_agent = reasoning_engines.ReasoningEngine.create(
     EchoAgent(),
     requirements=[
-        "fastapi==0.111.0",
-        "uvicorn==0.29.0",
-        "pydantic==2.7.0",
+        "fastapi",
+        "uvicorn=",
+        "pydantic",
     ],
     display_name="Echo A2A Agent",
     description="A2A Lab — Echo Agent on Agent Engine",
