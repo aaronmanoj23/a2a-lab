@@ -13,7 +13,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "server"))
 
 from agent_engine_wrapper import EchoAgent
 
-vertexai.init(project=PROJECT_ID, location=REGION)
+vertexai.init(project=PROJECT_ID, location=REGION, staging_bucket=STAGING)
 
 remote_agent = reasoning_engines.ReasoningEngine.create(
     EchoAgent(),
