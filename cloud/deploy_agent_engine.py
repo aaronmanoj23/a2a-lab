@@ -24,7 +24,7 @@ remote_agent = reasoning_engines.ReasoningEngine.create(
     ],
     display_name="Echo A2A Agent",
     description="A2A Lab — Echo Agent on Agent Engine",
-    gcs_dir_name=STAGING,
+    gcs_dir_name="a2a-staging",
 )
 
 print("Deployed! Resource name:", remote_agent.resource_name)
